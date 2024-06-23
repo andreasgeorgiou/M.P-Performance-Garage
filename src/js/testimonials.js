@@ -1,34 +1,34 @@
 // Setup Alert Boxes
 const alertBoxesData = [
   {
-    url: `https://goo.gl/maps/zA9qfkUA6gyxb3Ff9`,
-    img: `./media/reviewers/xavier_marin.webp`,
-    name: `Xavier Marin`,
-    body: `I brought my 2009 Toyota Highlander here with 239,000 miles for a Diagnostic after taking it to 3 other mechanics even paying twice to replace sensors, because that’s why they said. . Car Club Tire found multiple things wrong and showed dedication and patience with my vehicle to ensure it was fixed. The guys are honest, friendly, and understanding. They exceeded the service on my vehicle. I left with my vehicle with a smile. I need some other work done soon on suspension and my wife’s truck. I’m bringing my family’s vehicles here from now on. I’m happy with Car Club Tires. Thank you so much!`,
-  },
-  {
-    url: `https://goo.gl/maps/gzSAfPAC8wQ1D2Rb9`,
+    url: `https://maps.app.goo.gl/8or3nX9c1As82U9QA`,
     img: false,
-    name: `Mubbaya Babar`,
-    body: `Excellent and professional service 7 days a week. They are truly a blessing to the neighborhood.  Any make or model it doesn't matter, and they took care of me. Now I have a Mercedes, and they still take good care of me. 100% dependable very Professional work they did. I highly recommend this to everyone for their vehicle need. They are the best in Orange city thanks….`,
+    name: `Andreas G`,
+    body: `Very good service. I highly recommend this workshop.`,
   },
   {
-    url: `https://goo.gl/maps/XoiAT3zMgmoWBJBt7`,
-    img: false,
-    name: `Carlos Gonzalez`,
-    body: `Good Staff with honesty. They explainde me everything before they did everything on my vehículo Most of the places lying by saying I need this and etc they showed me what was exactly wrong and fixed it in no time. other place try to get more money from me but car club team showed the exact part that needed. I highly recomend this place to everyone. You cant find honest place now a days very Hard. Again thank you so much for helping me and saved my car. I Will definatly coming back for all of my service. 10/10`,
+    url: `https://maps.app.goo.gl/QCFpzekhECyKHx9h8`,
+    img: `./media/reviewers/Eleni.png`,
+    name: `eleni savva triantafyllidou`,
+    body: `I have been a returning customer! Excellent work done in great time and Every part of the service is discussed in detail.
+           I definitely recommend M.P performance garage!`,
   },
   {
-    url: `https://goo.gl/maps/ria7TBqB4D7uDChx8`,
-    img: `./media/reviewers/usman_shah.webp`,
-    name: `Usman Shah`,
-    body: `I was driving down to Miami and my car broke down in the evening. Car repair shops near me were closing and offered to assist the next morning. I was lucky enough to call this shop. If I remember correctly, the owner was Farhan, and he had my car fixed in no time. It was a wonderful experience. The team is amazing. They also offered complimentary snacks, hands down the best service ever.`,
+    url: `https://maps.app.goo.gl/fJ7pHaHHCGJWWomc9`,
+    img: `./media/reviewers/Jonh.png`,
+    name: `John Amaro`,
+    body: `Good service,good prices ,always there when you call..The best mechanic in Limassol`,
   },
   {
-    url: `https://maps.app.goo.gl/yaGPXqhh7JXkPeQK8`,
-    img: false,
-    name: `Alejandro Nuve`,
-    body: `I had a great experience ay car club tire i went in for brakes ando rotor. The staff was very friendly ando welcoming from the momoent i walked in and they explained me very well which i apperciated as Someone doesnt know much about cars. I drove all the way from Orlando and it's worth it. The service was quick ando efficent and i was back on Road in no time.,My car feels mucho smoother to drive now. Overall, i highly recomend car club tire . They are very honest and prices was very good. Thanks and i Will be back`,
+    url: `https://www.google.com/maps/place/M.P+Performance+Garage/@34.703245,32.956507,17z/data=!4m9!3m8!1s0x14e731c4b139a421:0x61024be8a841c1c4!8m2!3d34.7031391!4d32.9559384!10e4!16s%2Fg%2F11vz69c3rf!18m1!1s8@1:CAESGUNWX0E4bkVycjBGZmtSbUtfQXZBQVN2a2c%7C?hl=en&entry=ttu`,
+    name: `Kypros Mavroudis`,
+    body: `New equipment with excellent mechanic quality where he analyzes everything the vehicle needs. Well done!!!`,
+  },
+  {
+    url: `https://maps.app.goo.gl/1dn7SUmoF5d4EC3U6`,
+    img: `./media/reviewers/Maria.png`,
+    name: `Maria H-`,
+    body: `Marinos is doing the service for my car the last 7 years. And i am very happy with his services,prices etc 10/10`,
   },
   {
     url: `https://maps.app.goo.gl/Kh5UKYhqnJr9vhy59`,

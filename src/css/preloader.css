@@ -15,6 +15,10 @@
   visibility: hidden;
   transition: all ease-out 0.5s;
 }
+.card-img-top {
+  width: 20%;
+  height: auto;
+}
 
 .loader {
   width: 150px;

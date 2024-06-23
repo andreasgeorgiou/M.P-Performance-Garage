@@ -1,6 +1,6 @@
 // // Store status
 function storeStatus() {
-  const timeZone = "America/New_York";
+  const timeZone = "Asia/Nicosia";
   const now = new Date();
   const localTime = new Date(
     now.toLocaleString("en-US", {
@@ -25,7 +25,7 @@ function storeStatus() {
     weekday: "long",
   });
   const isOpeningHours =
-    (dayOfWeek === "Sunday" && hours >= 9 && hours < 17) ||
+    (dayOfWeek === "Saturday" && hours >= 9 && hours < 17) ||
     (dayOfWeek !== "Sunday" && hours >= 8 && hours < 19);
 
   const outputTime = isOpeningHours

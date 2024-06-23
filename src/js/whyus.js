@@ -77,15 +77,18 @@ function countWhenVisible(element, targetCount, speed) {
 // Setup WhyUs Counter Boxes
 const reasonBoxesData = [
   {
-    title: `Unmatched Expertise`,
+    img: `./media/PINION-GB.png`,
+    title: `PINION gear Box`,
     body: `At Car Club Tire & Auto Repair Service, our team of highly skilled and certified technicians brings years of experience and expertise to the table. You can trust us to handle your vehicle with precision and care, ensuring top-notch repairs and maintenance.`,
   },
   {
-    title: `Customer-Centric Approach`,
+    img: `./media/PINION-GB.png`,
+    title: `PINION gear Box2`,
     body: `We prioritize your satisfaction and go the extra mile to provide personalized attention to every customer. Our friendly and approachable team is always ready to listen to your concerns and offer tailored solutions that suit your specific needs.`,
   },
   {
-    title: `Wide Range of Services`,
+    img: `./media/PINION-GB.png`,
+    title: `PINION gear Box3`,
     body: `From tire work and maintenance to comprehensive auto repairs, we offer a diverse range of services under one roof. Whether it's routine maintenance or complex repairs, we've got you covered, saving you time and hassle.`,
   },
   {
@@ -102,12 +105,17 @@ const reasonBoxesData = [
   },
 ];
 const reasonBoxesHtml = reasonBoxesData.map((rs) => {
+
+  const img = rs.img ? rs.img : '';
   const title = rs.title ? rs.title : ``;
   const body = rs.body ? rs.body : ``;
+
   const output =
     `<div class="col-lg-4 col-6 col-12">
       <div class="card shadow-sm h-100">
-        <div class="card-body">
+      <img src="${img}" class="card-img-top">  
+      <div class="card-body">
+
           <div class="fs-5 text-primary fw-medium card-title">${title}</div>
           ${body}
         </div>

@@ -1,12 +1,6 @@
 // Setup Alert Boxes
 const alertBoxesData = [
   {
-    url: `https://maps.app.goo.gl/8or3nX9c1As82U9QA`,
-    img: false,
-    name: `Andreas G`,
-    body: `Very good service. I highly recommend this workshop.`,
-  },
-  {
     url: `https://maps.app.goo.gl/QCFpzekhECyKHx9h8`,
     img: `./media/reviewers/Eleni.png`,
     name: `eleni savva triantafyllidou`,
@@ -25,70 +19,59 @@ const alertBoxesData = [
     body: `New equipment with excellent mechanic quality where he analyzes everything the vehicle needs. Well done!!!`,
   },
   {
+    url: `https://maps.app.goo.gl/8or3nX9c1As82U9QA`,
+    img: false,
+    name: `Andreas G`,
+    body: `Very good service. I highly recommend this workshop.`,
+  },
+  {
     url: `https://maps.app.goo.gl/1dn7SUmoF5d4EC3U6`,
     img: `./media/reviewers/Maria.png`,
     name: `Maria H-`,
     body: `Marinos is doing the service for my car the last 7 years. And i am very happy with his services,prices etc 10/10`,
   },
   {
-    url: `https://maps.app.goo.gl/Kh5UKYhqnJr9vhy59`,
-    img: `./media/reviewers/Virag_Anna_Szolgyemy.webp`,
-    name: `Virag Anna Szolgyemy`,
-    body: `We were able to do a walk-in and get our alignment done right away. It took 45 mins from start to finish and it was only $60. All the staff was very friendly and helpful. It’s too bad I don’t live around here or else I would be a regular for sure :)`,
-  },
-  {
-    url: `https://maps.app.goo.gl/TT472PqByJGpnUhh7`,
+    url: `https://maps.app.goo.gl/onKLbFgSB68JpeHc8`,
     img: false,
-    name: `Francisco Alfredo`,
-    body: `BEST SERVICE I’ve EVER GOT. I highly recommend this place for all your service needs. The staff are very knowledgeable and know what they are doing. They patiently listened and understood my concerns, and they explained all the process before proceeding.and the price was very good. I was very satisfied with their service and will definitely come again.thanks Shan for all the help.`,
+    name: `Phillip Demetriou`,
+    body: `Perfect service, sudden appointment and yet was finished on the 2nd day and to my convenience was provided with a substitute car`,
   },
   {
-    url: `https://goo.gl/maps/yAAVWdtiPJ9v8y5U7`,
-    img: `./media/reviewers/Africans_In_Orlando.webp`,
-    name: `Africans In Orlando`,
-    body: `When you're looking for honest price, honest diagnostic, weekend service and great customer service, these guys are the best in the area. Shawn and Forhan are amazing professionals who will take good care of you and your car. I'll be coming here on a regular now 🙂 Happy Customer!`,
-  },
-  {
-    url: `https://goo.gl/maps/P5FHwGYWsxGWWU3R7`,
-    img: `./media/reviewers/Eddrina-Delmont.webp`,
-    name: `Eddrina Delmont`,
-    body: `Amazing amazing ! Fixed my breaks in no time. Customer service was excellent. Definitely recommend for anyone who doesn’t want to get ripped off or overpriced by other dealers. Come in and they will take care of you. Thank you so much Farhan for helping me out today and in a timely manner!`,
-  },
-  {
-    url: `https://maps.app.goo.gl/6gwbvcAP8LdTyMnb6`,
-    img: `./media/reviewers/Danielle_Marie.webp`,
-    name: `Danielle Marie`,
-    body: `I just bought a used vehicle and a day later turns out I need brakes. I found a Car Club Tire & auto on Groupon. I drove 51 minutes with no brakes just to get there. Thinking I just needed brake pads I was not financially prepared to afford much more than that. Turns out I need orders also. I'm a single mom and can't afford it. Everyone there was super helpful and did their best to help me and found the right option for my situation and I left with all 4 new brake pads and 2 new front rods. I won't be going anywhere else from now on. Everyone was so nice and very professional and treated me very kindly. Thank you so much 👍😊`,
-  },
-  {
-    url: `https://goo.gl/maps/SJc9B8wmXW4ezHcF6`,
-    img: `./media/reviewers/Lex_Scooter.webp`,
-    name: `Lex Scooter`,
-    body: `I will always be back to this location for service on my vehicles . I read a review for them that read "this location restored their faith in humanity" & I couldn't agree more. Thank you for doing ,all y'all can do ,for your customers. Fair prices & they gave me a fair quote over the phone , WITH EASE, after calling around for days to find the best deal on brakes .. I went the next day , around a general time i thought I could make it & it was one of the best experiences I've had at an auto repair shop. Can't thank them enough super trust worthy, Will be !!`,
-  },
-  {
-    url: `https://goo.gl/maps/hDdZ7p2JEXzQrLyB9`,
-    img: `./media/reviewers/Mercy_Ares.webp`,
-    name: `Mercy Ares`,
-    body: `Found this place on Groupon, they take appts & walk-ins. Arrived and was serviced immediately, the staff employees are professional and courteous. Amazing customer service experience. Super clean facility with an indoor AC comfortable waiting area, very clean bathrooms and free coffee! Was well worth the over an hour drive to get here but I'll definitely be returning even without Groupon to fix other issues on both my minivan & suv!`,
-  },
-  {
-    url: `https://maps.app.goo.gl/ZrkBPvtVE1q8PyoA7`,
+    url: `https://maps.app.goo.gl/uZNB9NCK94xLGt3z6`,
     img: false,
-    name: `Sandra Jordan`,
-    body: `My fiance was told about how "Great" Car Club Tire is by a co-worker and how Reasonable and Professional they were. I got my struts done on my car, the price was very reasonable. We took my car that morning and they finished the work by evening. Thank you for a Great job👍🏽 …`,
+    name: `Kyriakos Sotiriou`,
+    body: `One of the best mechanics in Limassol. 5 stars for sure. Highly recommended.`,
   },
   {
-    url: `https://maps.app.goo.gl/kA71gK8pm4hP5vtz9`,
+    url: `https://maps.app.goo.gl/3AuPLrLsVWYnNMRL6`,
     img: false,
-    name: `Shalandra Davis`,
-    body: `I have a Toyota Prius, which is a hybrid vehicle. The battery was no good the owner of the shop and his brother fixed my vehicle in record timing. They were very fast very efficient and I highly recommend the services. I will always use them as my mechanics, the honesty and prices you can’t beat.`,
+    name: `Angelos Georgiou`,
+    body: `Excellent job and professional mechanic Great service`,
   },
   {
-    url: `https://goo.gl/maps/qARRRYUnj4GqAedLA`,
+    url: `https://maps.app.goo.gl/vKbA99Sxr8awNupG9`,
     img: false,
-    name: `Maybelline Sierra`,
-    body: `I needed 4 new tires, a wheel alignment and rear brake pads and rotors for my 2018 Honda Accord. I called at least 6 places for quotes and Car Club gave me the best deal by far. I called them back several times with new questions while I was still shopping around for price quotes and each time, they were super patien+t and kind with me. When I finally decided to go with them, they got me in for service the very next day and did a great job! Now we will be bringing them our second car as well for some needed routine maintenance. I highly recommend them!`,
+    name: `Maria Georgiou`,
+    body: `Very pleased!! Immediate response, Very kind, very good service, my car was fixed in a very fast time, very good communication.
+          I highly recommend it!!`,
+  },
+  {
+    url: `https://maps.app.goo.gl/o6wCV7HriEnTthUY8`,
+    img: false,
+    name: `Panagiotis Tilemaxou`,
+    body: `Perfect service from the best`,
+  },
+  {
+    url: `https://maps.app.goo.gl/HUWGbJGWLA5qdJE87`,
+    img: false,
+    name: `Nikolas Georgiou`,
+    body: `O kaliteros sto xoro panta tipikos xwris apateonies opws oi parapano. Ton sistino anepifilakta`,
+  },
+  {
+    url: `https://maps.app.goo.gl/kGtjWSpd71wPrXbt5`,
+    img: false,
+    name: `king glanza`,
+    body: `The only mechanic who keeps car history!!! Impeccable`,
   },
 ]
 

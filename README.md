@@ -1,9 +1,4 @@
 
-## Getting Started
-```bash
-git clone https://github.com/saaqi/car-mechanic-shop.git
-```
-
 ### Install dependencies:
 ```bash
 cd car-mechanic-shop
@@ -23,13 +18,8 @@ npm run build
 
 ### Git commit, bump patch version and Git push all in one command:
 ```bash
-npm run push
+git add .
+git commit -m "comment"
+git push origin master
 ```
 
-## Credits
-
-This template is created and maintained by [Saqib Islam](https://saqibtech.com "Saqib Islam - UI/UX Designer & Fullstack Developer.") using HTML5, CSS3, BootStrap and JavaScript.
-
-## License
-
-This template is licensed under the MIT License. You are free to use, modify, and distribute this template for personal or commercial purposes as long as you include the original license in your distribution.

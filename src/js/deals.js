@@ -28,7 +28,7 @@ const dealsSlidesData = [
   {
     icon: `<i class="icon bx bx-wind display-6"></i>`,
     title: `Air Conditioning Services`,
-    body: `Filling with special gar for your car's air conditioner.`,
+    body: `Filling with special gas your car's air conditioner, it keeps longer.`,
   },
   {
     icon: `<i class="icon bx bxs-car-wash display-6"></i>`,

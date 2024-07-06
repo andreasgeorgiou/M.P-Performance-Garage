@@ -77,32 +77,217 @@ function countWhenVisible(element, targetCount, speed) {
 // Setup WhyUs Counter Boxes
 const reasonBoxesData = [
   {
-    img: `./media/PINION-GB.png`,
-    title: `PINION gear Box`,
-    body: `At Car Club Tire & Auto Repair Service, our team of highly skilled and certified technicians brings years of experience and expertise to the table. You can trust us to handle your vehicle with precision and care, ensuring top-notch repairs and maintenance.`,
+    img: `./media/products/dq200.png`,
+    title: `DSG DQ200 - Original Mechatronic Repair Kit`,
+    body: ``,
   },
   {
-    img: `./media/PINION-GB.png`,
-    title: `PINION gear Box2`,
-    body: `We prioritize your satisfaction and go the extra mile to provide personalized attention to every customer. Our friendly and approachable team is always ready to listen to your concerns and offer tailored solutions that suit your specific needs.`,
+    img: `./media/products/dq200-1.png`,
+    title: `DSG DQ200 - Mechatronic Performance Kit`,
+    body: ``,
   },
   {
-    img: `./media/PINION-GB.png`,
-    title: `PINION gear Box3`,
-    body: `From tire work and maintenance to comprehensive auto repairs, we offer a diverse range of services under one roof. Whether it's routine maintenance or complex repairs, we've got you covered, saving you time and hassle.`,
+    img: `./media/products/dq200-2.png`,
+    title: `DSG DQ200 - Mechatronic Big Case Housing`,
+    body: ``,
   },
   {
-    title: `Quality and Reliability`,
-    body: `We are committed to using top-quality parts and materials in all our services. Our emphasis on reliability ensures that your vehicle receives the best possible care, enhancing its performance and longevity.`,
+    img: `./media/products/dq200-3-accumulator.png`,
+    title: `DSG DQ200 - Accumulator`,
+    body: ``,
   },
   {
-    title: `Transparent Pricing`,
-    body: `At Car Club, we believe in transparent and fair pricing. You can count on us to provide honest estimates and no hidden fees, allowing you to make informed decisions without any surprises.`,
+    img: `./media/products/dq200-4-accumulator.png`,
+    title: `DSG DQ200 - Performance Accumulator`,
+    body: ``,
   },
   {
-    title: `Swift Turnaround`,
-    body: `We understand that your time is valuable, which is why we strive to deliver efficient and timely service. Our team works diligently to get you back on the road as quickly as possible, without compromising on quality.`,
+    img: `./media/products/dq200-5.png`,
+    title: `DSG DQ200 - GearBox Bearing Kit`,
+    body: ``,
   },
+  {
+    img: `./media/products/dq200-fork.png`,
+    title: `DSG DQ200 - Bearings Fork`,
+    body: ``,
+  },
+  {
+    img: `./media/products/dq200-fork-1.png`,
+    title: `DSG DQ200 - Clutch Bearing Fork`,
+    body: ``,
+  },
+  {
+    img: `./media/products/dq200-fork-2.png`,
+    title: `DSG DQ200 - Fork`,
+    body: ``,
+  },
+  {
+    img: `./media/products/dq200-TCM.png`,
+    title: `DSG DQ200 - TCM`,
+    body: ``,
+  },
+  {
+    img: `./media/products/dq200-oil-solinoid-valve.png`,
+    title: `DSG DQ200 - Oil Pressure Solinoid and Pressure Solinoied Valves `,
+    body: ``,
+  },
+  {
+    img: `./media/products/dq200-differential-pinions.png`,
+    title: `DSG Differential Pinions`,
+    body: ``,
+  },
+  {
+    img: `./media/products/725-tcm.png`,
+    title: `Mercedes Benz 9G-725 TCM`,
+    body: `Part Num.: A0009014900  & Part Num.: A0009015000`,
+  },
+  {
+    img: `./media/products/722.9-tcm.png`,
+    title: `Mercedes Benz 7G-722.9 TCM`,
+    body: `Part Num.: A0009018008  & Part Num.: A0009017100 & Part Num.: A0009013200`,
+  },
+  {
+    img: `./media/products/724-tcm.png`,
+    title: `Mercedes Benz 7G-DCT TCM`,
+    body: `Part Num.: A0002703900  & Part Num.: A0002702700`,
+  },
+  {
+    img: `./media/products/hybrid-tcm.png`,
+    title: `Mercedes Hybrid - TCM`,
+    body: `Part Num.: А0002703300`,
+  },
+  {
+    img: `./media/products/Bclass-tcm.png`,
+    title: `Mercedes B class - A class TCM`,
+    body: `Part Num.: А0034662410`,
+  },
+  {
+    img: `./media/products/722.6-tcm.png`,
+    title: `Mercedes Benz 722.6 TCM`,
+    body: ``,
+  },
+  {
+    img: `./media/products/725-oil-pan.png`,
+    title: `Mercedes Benz 725-9G GearBox filter`,
+    body: ``,
+  },
+  {
+    img: `./media/products/725-overflow-pipes.png`,
+    title: `Mercedes Benz 725-9G Overflow Pipes`,
+    body: ``,
+  },
+  {
+    img: `./media/products/725-tool.png`,
+    title: `Mercedes Benz 725-9G GearBox Filter tools`,
+    body: ``,
+  },
+  {
+    img: `./media/products/mercedes-servo-module.png`,
+    title: `Mercedes benz Servo Module`,
+    body: ``,
+  },
+  {
+    img: `./media/products/724-kit-filter.png`,
+    title: `Mercedes Benz 724-7G DCT GearBox Filter`,
+    body: ``,
+  },
+  {
+    img: `./media/products/724-small-filter.png`,
+    title: `Mercedes Benz 724 GearBox Filter`,
+    body: ``,
+  },
+  {
+    img: `./media/products/722.9-filter.png`,
+    title: `Mercedes Benz 722.9 GearBox Filter`,
+    body: ``,
+  },  {
+    img: `./media/products/722.6-filter.png`,
+    title: `Mercedes Benz 722.6 GearBox Filter Kit`,
+    body: ``,
+  },
+  {
+    img: `./media/products/juke-filter-2.png`,
+    title: `Nissan CVT GearBox Filter Kit`,
+    body: ``,
+  },
+  {
+    img: `./media/products/juke-filter-1.png`,
+    title: `Nissan CVT GearBox Filter`,
+    body: ``,
+  },
+  {
+    img: `./media/products/juke-filter.png`,
+    title: `Nissan CVT GearBox Filter Kit`,
+    body: `Second Generation`,
+  },
+  {
+    img: `./media/products/juke-filter-3.png`,
+    title: `Nissan CVT GearBox Filter`,
+    body: `Second Generation`,
+  },
+  {
+    img: `./media/products/demio-filter-2.png`,
+    title: `Mazda GearBox Filter Kit`,
+    body: ``,
+  },
+  {
+    img: `./media/products/demio-filter.png`,
+    title: `Mazda GearBox Filter Kit`,
+    body: `Second Generation`,
+  },
+  {
+    img: `./media/products/vezel-filter.png`,
+    title: `Honda CVT GearBox Filter Kit`,
+    body: ``,
+  },
+  {
+    img: `./media/products/honda-actuator-vtc.png`,
+    title: `Honda Actuator VTC`,
+    body: ``,
+  },
+  {
+    img: `./media/products/honda-vezel-belt.png`,
+    title: `Honda Vezel Belt Tensioner`,
+    body: ``,
+  },
+  {
+    img: `./media/products/Renault-DCT250-actuador.png`,
+    title: `Renault DCT250 Actuador`,
+    body: ``,
+  },
+  {
+    img: `./media/products/mercedes-handbrake.png`,
+    title: `Mercedes Benz Handbrake Handle`,
+    body: ``,
+  },
+  {
+    img: `./media/products/Handbrake-handle.png`,
+    title: `Mercedes Benz Handbrake Handle Mounting`,
+    body: ``,
+  },
+  {
+    img: `./media/products/mercedes-back-lights.png`,
+    title: `Mercedes Benz Bulb Mounting`,
+    body: ``,
+  },
+  {
+    img: `./media/products/A204820257764.png`,
+    title: `Mercedes Benz Bulb Mounting`,
+    body: ``,
+  },
+  {
+    img: `./media/products/mercedes-bulb-mount.png`,
+    title: `Mercedes Benz Bulb Mounting`,
+    body: ``,
+  },
+  {
+    img: `./media/products/mercedes-seat-belt.png`,
+    title: `Mercedes Benz Seat Buckle`,
+    body: ``,
+  },
+  
+
+
 ];
 const reasonBoxesHtml = reasonBoxesData.map((rs) => {
 

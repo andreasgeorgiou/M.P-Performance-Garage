@@ -25,7 +25,7 @@ function storeStatus() {
     weekday: "long",
   });
   const isOpeningHours =
-    (dayOfWeek === "Saturday" && hours >= 9 && hours < 17) ||
+    (dayOfWeek === "Saturday" && hours >= 9 && hours < 13) ||
     (dayOfWeek !== "Sunday" && hours >= 8 && hours < 19);
 
   const outputTime = isOpeningHours

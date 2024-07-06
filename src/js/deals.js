@@ -26,14 +26,14 @@ if (alertBoxesElement) alertBoxesElement.innerHTML = alertBoxHtml.join("")
 // Setup Deals Slides
 const dealsSlidesData = [
   {
-    icon: `<i class="icon bx bx-wind display-6"></i>`,
-    title: `Air Conditioning Services`,
-    body: `Filling with special gas your car's air conditioner, it keeps longer.`,
-  },
-  {
     icon: `<i class="icon bx bxs-car-wash display-6"></i>`,
     title: `Regularly Service`,
     body: `Oil, Filters, Sparks changes and others. `,
+  },
+  {
+    icon: `<i class="icon bx bx-wind display-6"></i>`,
+    title: `Air Conditioning Services`,
+    body: `Filling with special gas your car's air conditioner, it keeps longer.`,
   },
   // {
   //   icon: `<i class="icon bx bxs-car-wash display-6"></i>`,
